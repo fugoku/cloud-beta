@@ -12,7 +12,11 @@ export default function Hero() {
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" />
 
         <div className="animate-fade-in-once lg:h-[67vh] absolute -z-50  left-0 top-0">
-          <Lottie animationData={mapData} />;
+          <Lottie
+            animationData={mapData}
+            onComplete={() => console.log("try")}
+          />
+          ;
         </div>
         <div className="mx-auto max-w-2xl py-24 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
