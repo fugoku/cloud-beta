@@ -15,7 +15,7 @@ const navigation = [
   { name: "Company", href: "#" },
 ];
 const links = [
-  { label: "Docs", href: "#" },
+  { label: "Dashboard", href: "/dashboard" },
   { label: "Applications", href: "#" },
   { label: "Marketplace", href: "#" },
   { label: "Blog", href: "#" },
