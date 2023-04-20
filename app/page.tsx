@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Hero from "@/ui/Hero";
 import Header from "@/ui/Header";
+import Feature from "@/ui/Feature";
+import Features2 from "@/ui/Features2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +13,8 @@ export default function Home() {
       <div className="bg-white">
         <Header />
         <Hero />
+        <Feature />
+        <Features2 />
       </div>
     </main>
   );
