@@ -1,19 +1,10 @@
 "use client";
 import { useState } from "react";
 import clsx from "clsx";
-
-// import { page } from "@/app/assets/goku.svg";
 import logo from "@/app/assets/goku.svg";
 import Image from "next/image";
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
 const links = [
   { label: "Dashboard", href: "/dashboard" },
   { label: "Applications", href: "#" },
