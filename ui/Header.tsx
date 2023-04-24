@@ -34,19 +34,19 @@ export default function Header() {
 
   return (
     <>
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Fugoku</span>
-            <img className="h-8 w-auto" src={logo} alt="" />
-            <Image src={logo} height={144} width={144} alt="fugoku logo" />
-          </a>
-        </div>
       <header className="absolute inset-x-0 top-0 z-50 ">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
-          <div className="flex lg:idden">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <span className="sr-only">Fugoku</span>
+              <img className="h-8 w-auto" src={logo} alt="" />
+              <Image src={logo} height={144} width={144} alt="fugoku logo" />
+            </a>
+          </div>
+          <div className="flex lg:hidden">
             <button
               type="button"
               onClick={toggleMenu}
@@ -91,7 +91,7 @@ export default function Header() {
         </nav>
         {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
         {/* className={"hidden"==isMenuOpen}} */}
-        <div className="lg:hiddn" role="dialog" aria-modal="true">
+        <div className="lg:hidden" role="dialog" aria-modal="true">
           {/* <!-- Background backdrop, show/hide based on slide-over state. --> */}
           <div className="fixed inset-0 z-50" />
           <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -149,7 +149,7 @@ export default function Header() {
           </div>
         </div>
       </header>
-      <div className="lg:hiden" role="dialog" aria-modal="true">
+      <div className="lg:hidden" role="dialog" aria-modal="true">
         <div className="fixed inset-0 z-50" />
         {/* class:show={showMenu}  */}
         <div
