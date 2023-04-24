@@ -1,6 +1,5 @@
 "use client";
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import mapData from "@/app/assets/map.json";
 import greenifydata from "@/app/assets/greenify.json";
 import Lottie from "lottie-react";
