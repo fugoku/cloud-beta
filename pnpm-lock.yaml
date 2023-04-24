@@ -31,6 +31,9 @@ dependencies:
   next:
     specifier: 13.3.0
     version: 13.3.0(react-dom@18.2.0)(react@18.2.0)
+  outline:
+    specifier: link:@heroicons/react/24/outline
+    version: link:@heroicons/react/24/outline
   react:
     specifier: 18.2.0
     version: 18.2.0
