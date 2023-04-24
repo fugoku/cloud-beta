@@ -1,7 +1,9 @@
 "use client";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import MenuIcon from "@/app/assets/icons/bar";
+import BellIcon from "@/app/assets/icons/bell";
+import XIcon from "@/app/assets/icons/xcircle";
 import logo from "@/app/assets/goku.svg";
 import Image from "next/image";
 
@@ -11,6 +13,8 @@ const user = {
   imageUrl:
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
+
+
 const navigation = [
   { name: "Dashboard", href: "#", current: true },
   { name: "Team", href: "#", current: false },
@@ -27,7 +31,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Dashboard() {
   return (
     <>
       <Disclosure as="nav" className="bg-white border-b border-gray-200">
@@ -76,7 +80,8 @@ export default function Example() {
                     className="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
                     <span className="sr-only">View notifications</span>
-                    <BellIcon className="h-6 w-6" aria-hidden="true" />
+                    {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
+                    nj
                   </button>
                   <Menu as="div" className="ml-3 relative">
                     <div>
