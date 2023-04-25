@@ -4,6 +4,7 @@ import Hero from "@/ui/Hero";
 import Header from "@/ui/Header";
 import Feature from "@/ui/Feature";
 import Features2 from "@/ui/Features2";
+import Footer from "@/ui/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Feature />
         <Features2 />
+        <Footer />
       </div>
     </main>
   );
